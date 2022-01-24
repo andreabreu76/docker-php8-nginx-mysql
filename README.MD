@@ -1,6 +1,6 @@
-#Conteiners PHP8, Nginx & MySQL
+# Conteiners PHP8, Nginx & MySQL
 
-Steps...
+## Steps...
 
 ```bash
 cd protectname/src
