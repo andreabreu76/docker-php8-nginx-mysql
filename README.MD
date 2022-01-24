@@ -38,16 +38,3 @@ docker exec -it projectname-app php artisan config:clear
 ```bash
 docker exec -it projectname-app php artisan migrate
 ``` 
-
-```bash
-
-``` 
-```bash
-
-``` 
-```bash
-
-``` 
-```bash
-
-``` 
