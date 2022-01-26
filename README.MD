@@ -2,6 +2,23 @@
 
 ## Steps...
 
+Primeiro, mude o .env do Docker para seus parametros:
+
+```bash
+PROJECT_NAME=projectname
+``` 
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=database
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+``` 
+
+Seguimos ...
+
 ```bash
 cd protectname/src
 ``` 
@@ -18,18 +35,6 @@ sudo chown -R $USER:$USER .
 
 ```bash
 sudo chmod -R 777 storage/
-``` 
-
-
-Agora, mude o .env para seus parametros:
-
-```bash
-DB_CONNECTION=mysql
-DB_HOST=database
-DB_PORT=3306
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
 ``` 
 
 ```bash
