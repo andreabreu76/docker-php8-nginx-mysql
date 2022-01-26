@@ -8,15 +8,6 @@ Primeiro, mude o .env do Docker para seus parametros:
 PROJECT_NAME=projectname
 ``` 
 
-```bash
-DB_CONNECTION=mysql
-DB_HOST=database
-DB_PORT=3306
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
-``` 
-
 Seguimos ...
 
 ```bash
@@ -25,6 +16,17 @@ cd protectname/src
 
 ```bash
 docker exec -it projectname-app composer create-project laravel/laravel .
+``` 
+
+Edite o .env do projeto com os dados do novo banco de dados.
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=database
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
 ``` 
 
 Algumas vezes é necessário setar permissões.
