@@ -1,9 +1,9 @@
 #Imagem Padrão utilizada na Afilio até 22/10/2020
 #FROM php:7.4.11-fpm
-FROM php:8.1.2-fpm-buster
+FROM php:fpm-bullseye
 
 # Add Repositorio NODE
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 
 #Atualização da imagem a ser utilizada no container
 RUN apt update && apt -y upgrade 
